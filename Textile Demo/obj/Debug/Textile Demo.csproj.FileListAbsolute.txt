@@ -1,0 +1,29 @@
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\bin\Debug\Textile Demo.exe.config
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\bin\Debug\Textile Demo.exe
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\bin\Debug\Textile Demo.pdb
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Home.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Login.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Properties.Resources.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile Demo.csproj.GenerateResource.cache
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile Demo.exe
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile Demo.pdb
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.CostSheet.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.CostSheetGroups.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.CostSheetMaterial.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.PurchaseOrder.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Group_01.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Group_02.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Split_01.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Split_02.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Split_03.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.slide1.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.slide2.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.slide3.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile Demo.csproj.CoreCompileInputs.cache
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile Demo.csprojAssemblyReference.cache
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.PurchaseGrid.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\bin\Debug\DemoApparelDB.mdf
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\bin\Debug\DemoApparelDB_log.ldf
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.EditPurchase.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.PurchaseMainGrid.resources
+C:\Users\HansikaPerera\Documents\Potenza Demo\Textile Demo\Textile Demo\Textile Demo\obj\Debug\Textile_Demo.Created_Orders.resources

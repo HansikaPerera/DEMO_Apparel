@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{446F29E1-BE13-47CA-A715-E5815FED3D5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Textile_Demo</RootNamespace>
+    <AssemblyName>Textile Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>demo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CostSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CostSheet.Designer.cs">
+      <DependentUpon>CostSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CostSheetGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CostSheetGroups.Designer.cs">
+      <DependentUpon>CostSheetGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CostSheetMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CostSheetMaterial.Designer.cs">
+      <DependentUpon>CostSheetMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Created Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Created Orders.Designer.cs">
+      <DependentUpon>Created Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemoApparelDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoApparelDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPurchase.Designer.cs">
+      <DependentUpon>EditPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Group-01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Group-01.Designer.cs">
+      <DependentUpon>Group-01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Group-02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Group-02.Designer.cs">
+      <DependentUpon>Group-02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseGrid.Designer.cs">
+      <DependentUpon>PurchaseGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseMainGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseMainGrid.Designer.cs">
+      <DependentUpon>PurchaseMainGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseOrder.Designer.cs">
+      <DependentUpon>PurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slide1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="slide1.Designer.cs">
+      <DependentUpon>slide1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slide2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="slide2.Designer.cs">
+      <DependentUpon>slide2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slide3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="slide3.Designer.cs">
+      <DependentUpon>slide3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Split-01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Split-01.Designer.cs">
+      <DependentUpon>Split-01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Split-02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Split-02.Designer.cs">
+      <DependentUpon>Split-02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Split-03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Split-03.Designer.cs">
+      <DependentUpon>Split-03.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CostSheet.resx">
+      <DependentUpon>CostSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CostSheetGroups.resx">
+      <DependentUpon>CostSheetGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CostSheetMaterial.resx">
+      <DependentUpon>CostSheetMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Created Orders.resx">
+      <DependentUpon>Created Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPurchase.resx">
+      <DependentUpon>EditPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Group-01.resx">
+      <DependentUpon>Group-01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Group-02.resx">
+      <DependentUpon>Group-02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseGrid.resx">
+      <DependentUpon>PurchaseGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseMainGrid.resx">
+      <DependentUpon>PurchaseMainGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseOrder.resx">
+      <DependentUpon>PurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slide1.resx">
+      <DependentUpon>slide1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slide2.resx">
+      <DependentUpon>slide2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slide3.resx">
+      <DependentUpon>slide3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Split-01.resx">
+      <DependentUpon>Split-01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Split-02.resx">
+      <DependentUpon>Split-02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Split-03.resx">
+      <DependentUpon>Split-03.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DemoApparelDBDataSet.xsc">
+      <DependentUpon>DemoApparelDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DemoApparelDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoApparelDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoApparelDBDataSet.xss">
+      <DependentUpon>DemoApparelDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Background3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\rec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\usr name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\logo - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\backButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\material.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\backimg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\test.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="demo.ico" />
+    <Content Include="DemoApparelDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoApparelDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>DemoApparelDB.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
